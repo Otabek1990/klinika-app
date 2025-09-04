@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@layer{
+    .btn{
+
+        @apply bg-orange-500 text-white p-2 rounded-md cursor-pointer
+    }
+}
