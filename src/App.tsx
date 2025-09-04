@@ -1,7 +1,10 @@
+import Navbar from "./components/ui/Navbar";
+
 function App() {
   return (
     <>
-      <h1>hello clinika app</h1>
+    <Navbar/>
+     
     </>
   );
 }
