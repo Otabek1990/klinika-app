@@ -11,6 +11,9 @@ function Navbar() {
         <NavLink to={"/xodimlar"}>
           Xodimlar
         </NavLink>
+          <NavLink to={"/calculator"}>
+           Calculator
+         </NavLink>
         <NavLink to={"/login"}>
           Login
         </NavLink>
