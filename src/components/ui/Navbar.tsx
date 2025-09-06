@@ -8,6 +8,9 @@ function Navbar() {
         <NavLink to={"/"}>
           Asosiy 
         </NavLink>
+        <NavLink to={"/xodimlar"}>
+          Xodimlar
+        </NavLink>
         <NavLink to={"/login"}>
           Login
         </NavLink>
