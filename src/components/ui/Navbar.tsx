@@ -14,6 +14,9 @@ function Navbar() {
           <NavLink to={"/calculator"}>
            Calculator
          </NavLink>
+          <NavLink to={"/loyaut"}>
+           Loyaut
+         </NavLink>
         <NavLink to={"/login"}>
           Login
         </NavLink>

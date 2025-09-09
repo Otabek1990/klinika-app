@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Login from "./pages/login";
 import Xodimlar from "./pages/xodimlar";
 import Calculator from "./pages/Calculator/Calculator";
-
+import Loyaut from "./components/layout/Layout";
 function App() {
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/calculator" element={<Calculator/>}/>
+      <Route path="/loyaut" element={<Loyaut />}/>
       <Route path="/xodimlar" element={<Xodimlar/>}/>
     </Routes>
      
